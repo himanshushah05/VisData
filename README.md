@@ -5,7 +5,10 @@ VisData is a data monitoring project, where sensor data can be monitored and vis
 The project includes an ESP32 connected to DHT11 sensor. After every 15 minutes, my system wakes up from deep sleep and records the reading and goes to deep sleep again. The data is written to google sheets using [IFTTT](https://ifttt.com/explore). The google sheets data is further visualized using [Grafana](https://grafana.com/) dashboard.
 
 ## Images of IFTTT applet and Grafana Dashboard
+### Dashboard 
+![](https://github.com/himanshushah05/VisData/blob/main/dashboard%20gif.gif)
 
+### IFTTT Applet
 
 ## Hardware Setup
 - The hardware is very simple. It includes just a DHT11 sensor connected to ESP32. 
