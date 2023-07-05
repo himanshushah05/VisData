@@ -9,7 +9,7 @@ The project includes an ESP32 connected to DHT11 sensor. After every 15 minutes,
 ![](https://github.com/himanshushah05/VisData/blob/main/dashboard%20gif.gif)
 
 ### IFTTT Applet
-
+<img src="https://github.com/himanshushah05/VisData/blob/main/Applet%20image.png" width = 20% height=10% />
 ## Hardware Setup
 - The hardware is very simple. It includes just a DHT11 sensor connected to ESP32. 
 - Connections - signal pin connected to D4 of ESP32
