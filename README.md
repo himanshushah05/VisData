@@ -1,20 +1,21 @@
-# VisData
+# 🌤➡🖥 VisData
 VisData is a data monitoring project, where sensor data can be monitored and visualised. 
 
-## Description:
+## 🗒 Description:
 The project includes an ESP32 connected to DHT11 sensor. After every 15 minutes, my system wakes up from deep sleep and records the reading and goes to deep sleep again. The data is written to google sheets using [IFTTT](https://ifttt.com/explore). The google sheets data is further visualized using [Grafana](https://grafana.com/) dashboard.
 
-## Images of IFTTT applet and Grafana Dashboard
+## 📸 Images of IFTTT applet and Grafana Dashboard
 ### Dashboard 
 ![](https://github.com/himanshushah05/VisData/blob/main/dashboard%20gif.gif)
 
 ### IFTTT Applet
 <img src="https://github.com/himanshushah05/VisData/blob/main/Applet%20image.png" width = 20% height=10% />
-## Hardware Setup
+
+## 🔧 Hardware Setup
 - The hardware is very simple. It includes just a DHT11 sensor connected to ESP32. 
 - Connections - signal pin connected to D4 of ESP32
 
-## Software 
+## 🖥 Software 
 ### 1. Setting up IFTTT applet:
 - Create a new applet after logging in to the [IFTTT](https://ifttt.com/explore).
 - In the _If this_ place, select ___Webhooks___ and choose ___Receive a web request___ as the _trigger_. 
@@ -51,7 +52,7 @@ The project includes an ESP32 connected to DHT11 sensor. After every 15 minutes,
 
 Now, Let's create the Dashboard
 
-#### Creating Dashboard
+#### 👨‍💻 Creating Dashboard
 - Now, in the Grafana menu, go to Dashboard and create a new dashboard.
 - then Add new Visualization and then select data source as Google Sheets and then under spreadsheet ID enter the part of url from d/{ID}/edit.
 for eg, https://docs.google.com/spreadsheets/d/1WolxfNRQPFwx5RC2aLBHSdERplVnZVVL1kQcOXznY64/edit?usp=sharing
