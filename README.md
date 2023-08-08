@@ -1,6 +1,6 @@
 # 🌤➡🖥 VisData
-VisData is a data monitoring project, where sensor data can be monitored and visualised. 
-
+VisData is a data monitoring project, where sensor data can be monitored and visualised.
+In some small scale industries, where it is not possible or afforadable to install a proper PLC based system, we can integrate this system. This is effectively affordable and with slight modifications can be used to detect industry level signals as well.
 ## 🗒 Description:
 The project includes an ESP32 connected to DHT11 sensor. After every 15 minutes, my system wakes up from deep sleep and records the reading and goes to deep sleep again. The data is written to google sheets using [IFTTT](https://ifttt.com/explore). The google sheets data is further visualized using [Grafana](https://grafana.com/) dashboard.
 
@@ -10,6 +10,10 @@ The project includes an ESP32 connected to DHT11 sensor. After every 15 minutes,
 
 ### IFTTT Applet
 <img src="https://github.com/himanshushah05/VisData/blob/main/Applet%20image.png" width = 20% height=10% />
+
+## 🔮 Future Scope
+- This system can be used as an HMI for any type of sensor readings.
+- This device with some modifications and by connecting multiple devices to one central device, can be a prototype or a small scale version of DCS.  
 
 ## 🔧 Hardware Setup
 - The hardware is very simple. It includes just a DHT11 sensor connected to ESP32. 
